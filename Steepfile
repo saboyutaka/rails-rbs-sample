@@ -1,5 +1,5 @@
-target :app do
-  signature 'sig'
+target :models do
+  signature "sig"
 
-  check 'app'
+  check "app/models"
 end
