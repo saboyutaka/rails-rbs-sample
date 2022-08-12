@@ -37,3 +37,5 @@ yarn-debug.log*
 
 vendor/bundle
 .env
+
+.gem_rbs_collection/
