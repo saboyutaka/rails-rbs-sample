@@ -1,0 +1,8 @@
+class SomeService
+  attr_reader title: String
+  attr_reader body: String
+
+  def initialize: (String title, String body) -> void
+
+  def call: () -> String
+end
