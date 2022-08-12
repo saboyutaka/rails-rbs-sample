@@ -1,4 +1,7 @@
 class PostsController < ApplicationController
+  @post: Post
+  @posts: Post::ActiveRecord_Relation
+
   # GET /posts or /posts.json
   def index: () -> untyped
 
