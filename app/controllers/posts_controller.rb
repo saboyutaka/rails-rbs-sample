@@ -3,6 +3,8 @@ class PostsController < ApplicationController
 
   # GET /posts or /posts.json
   def index
+    service = SomeService.new("hoge", '2')
+    result = service.call
     @posts = Post.all
   end
 
