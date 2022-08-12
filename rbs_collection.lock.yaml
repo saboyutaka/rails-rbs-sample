@@ -74,10 +74,6 @@ gems:
   version: '0'
   source:
     type: stdlib
-- name: erb-formatter
-  version: 0.3.0
-  source:
-    type: rubygems
 - name: i18n
   version: '1.10'
   source:
@@ -138,10 +134,6 @@ gems:
     revision: 5442918ecb9bbecca2a3a357477f24af42047af4
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
-- name: rbs_rails
-  version: 0.11.0
-  source:
-    type: rubygems
 - name: tempfile
   version: '0'
   source:
